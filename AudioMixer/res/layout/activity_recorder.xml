@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bt_start_recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Recording" />
+
+    <Button
+        android:id="@+id/bt_stop_recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Recording" />
+
+    <Button
+        android:id="@+id/bt_play_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Audio" />
+
+    <Button
+        android:id="@+id/bt_stop_playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop playing" />
+
+    <Button
+        android:id="@+id/bt_mix_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mix Sound" />
+
+    <Button
+        android:id="@+id/bt_start_mixing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Mixing" />
+
+</LinearLayout>
